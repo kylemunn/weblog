@@ -1,0 +1,27 @@
+# some information about you
+name: "Kyle Munn"
+nickname: "Kyle"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+#image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "kyle@kylemunn.com"
+  phone: "407-283-7802"
+  github: kylemunn
+  linkedin: kylemunn
+  #researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Devops Engineer
+  - I love servers
+  - I love home automation
+  - I make lightshows
+  - I love to work on nerdy projects
+  - I play around with ML in my spare time
+  - I have a 7 node kubernetes cluster with ceph storage
+  - I have over 400 TB of HDDs and over 50 TB of SSDs
+  - I enjoy gaming (video and TTRPGs)
+  - I am a foodie
