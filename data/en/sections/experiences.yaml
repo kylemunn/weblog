@@ -1,0 +1,86 @@
+section:
+  name: Experiences
+  id: experiences 
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+experiences:
+- company:
+    name: Universal Destinations and Experiences
+    url: "https://www.universaldestinationsandexperiences.com/landing/en/us"
+    location: Orlando, FL
+    logo: /images/udx.png
+    #darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: UDX is headquartered in Orlando, Florida, operates Universal theme parks and resort properties around the world. Universal Destinations & Experiences is widely known for its wide range of attractions, themed lands, and other experiences that draw inspiration from popular classic and modern pop culture icons and intellectual properties in various media, both from NBCUniversal and third-party companies across all Universal parks.
+  positions:
+  - designation: Director, IT Enterprise Technology Operations
+    start: Jan 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Global Operations inclusive of Service Desk, Endpoint Management, and Business Automation Systems teams
+
+  - designation: Director, IT Application Architecture
+    start: Aug 2019
+    end: Dec 2022
+    responsibilities:
+    - Led Microservices (Node.js and .Net Core) teams inclusive of architecture and build
+    - Led DevOps initiatives and DevOps team
+
+  - designation: Senior Manager, IT Guest Systems Support
+    start: Mar 2018
+    end: Aug 2019
+    responsibilities:
+    - Stabilization of production systems for technology-centric theme park Volcano Bay
+    - Led .Net development, DevOps, Mobile and Web development teams
+
+  - designation: Manager, IT Guest Systems Support
+    start: Jan 2017
+    end: Mar 2018
+    responsibilities:
+      - Assisted in opening Volcano Bay
+      - Led .Net Development and DevOps teams
+
+  - designation: Technical Specialist, IT Revenue Operations Support
+    start: Apr 2014
+    end: Mar 2015
+    responsibilities:
+      - Integration development for Point-of-Sales system
+      - Rollout of new Merchandise Point-of-Sales system
+
+- company:
+    name: SeaWorld Parks & Entertainment
+    url: "https://seaworld.org/"
+    location: Orlando, FL
+    logo: /images/sw.png
+    #darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: SeaWorld Parks & Entertainment is an American theme park and entertainment company headquartered in Orlando, Florida.
+  positions:
+  - designation: IT Systems Analyst
+    start: Apr 2011
+    end: Apr 2014
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Global Point-of-Sales system support and integration development
+
+- company:
+    name: Universal Orlando Resort
+    url: "https://www.universalorlando.com/web/en/us"
+    location: Orlando, FL
+    logo: /images/uor.png
+    #darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Universal Orlando Resort, is a 541-acre (219 ha) theme park and entertainment resort complex located in Orlando, Florida.
+  positions:
+  - designation: IT Programmer Analyst
+    start: Apr 2009
+    end: Apr 2011
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Resort Point-of-Sales support for Merchandise, Food Systems, and Ticketing
