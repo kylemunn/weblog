@@ -5,6 +5,8 @@ authors:
   - name: kylemunn
     link: https://github.com/kylemunn
     image: https://github.com/kylemunn.png
+theme: Toha
+hero: index.webp
 tags:
   - "misc"
 draft: false
