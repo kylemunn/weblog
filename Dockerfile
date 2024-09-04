@@ -6,9 +6,13 @@ RUN \
       hugo \
       tzdata \
       go \
+      npm \
  && apk add --no-cache dart-sass --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
 WORKDIR /src
 COPY . .
+# install TOHA theme
+RUN npm install
+# update HUGO
 RUN --mount=type=cache,target=/tmp/hugo_cache \
     hugo --minify
 
