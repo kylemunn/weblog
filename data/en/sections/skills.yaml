@@ -8,8 +8,33 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
+# Your Skills.
+# Give a summary of you each skill in the summary section.
 skills:
 - name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  logo: /images/skills/kubernetes.png
+  summary: "Capable of deploying, managing application on Kubernetes using helm or Flux."
   url: "https://kubernetes.io/"
+
+- name: C# Development
+  logo: /images/skills/c3.png
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable programs."
+  url: "https://dotnet.microsoft.com/en-us/languages/csharp"
+
+- name: DevOps
+  logo: /images/skills/devops.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Docker
+  logo: /images/skills/docker.webp
+  summary: "Write most of the programs as dockerized container."
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/skills/debian.webp
+  summary: "Uses as primary server operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  logo: /images/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
