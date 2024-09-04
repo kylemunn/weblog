@@ -82,8 +82,8 @@ jobs:
         with:
           builder: ${{ steps.buildx.outputs.name }}
           platforms: ${{ env.platforms }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          #cache-from: type=gha
+          #cache-to: type=gha,mode=max
           context: .  # explicitly include checked-out context with .git/ dir
           file: ./Dockerfile
           push: true
