@@ -35,14 +35,14 @@ enableEmoji: true
 
 params:
   # Background image of the landing page
-  background: /images/DSC02893.jpg
+  background: /images/fox.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
-  #logo:
-  #  main: /images/site/main-logo.png
-  #  inverted: /images/site/inverted-logo.png
-  #  favicon: /images/site/favicon.png
+  logo:
+    main: /images/site/pokeball-color.png
+    inverted: /images/site/pokeball-outline-white.png
+    favicon: /images/site/pokeball-outline-white.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/kylemunn/weblog
