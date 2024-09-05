@@ -51,12 +51,12 @@ badges:
 - type: soft-skill-indicator
   name: Software Development
   percentage: 75
-  color: 9370db
+  color: orange
 
 - type: soft-skill-indicator
   name: DevOps
   percentage: 90
-  color: ff7f50 
+  color: purple 
 
 - type: soft-skill-indicator
   name: Friendliness
